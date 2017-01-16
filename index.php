@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Title -->
+	<title>Good Morning</title>
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
 <?php 
 $time = date("G");
 
@@ -10,3 +20,8 @@ if ($time < 6) {
 }	else {
 	echo "Good evening";
 }
+
+?>
+
+</body>
+</html>
